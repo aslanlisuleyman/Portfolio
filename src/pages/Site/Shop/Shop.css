@@ -1,0 +1,56 @@
+.sho{
+    display: flex;
+ padding-top: 100px;
+ gap: 60px;
+  background-color: white;
+   border-bottom: 1px solid rgb(202, 201, 201); 
+    padding-bottom: 50px; 
+}
+
+/* Shop.css */
+
+
+  
+  .item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-size: 18px;
+   
+  }
+  
+  .item-container img {
+    height: 250px;
+    width: 270px;
+  }
+  
+  .item-details {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 18px;
+  }
+  
+  .price {
+    font-size: 15px;
+  }
+  
+  .del {
+    color: rgb(255, 252, 252);
+  }
+  
+  .but:hover{
+    border: 2px solid green;
+    color: green;
+  }
+  .but{
+    background: transparent;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    margin-left: 40px;
+  }
+  

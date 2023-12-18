@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site__ul{
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    
+}
+.site__ul li{
+    list-style: none;
+    color: aliceblue;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 54px;
+    background-color: #262626;
+ 
+    line-height: 54px;
+    margin-bottom: 1px;
+}

@@ -1,0 +1,223 @@
+{
+  "books": [
+    {
+      "name": "Kitab1",
+      "unitPrice": "27",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-1.jpg",
+      "id": 8
+    },
+    {
+      "name": "Mis",
+      "unitPrice": "98",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-2.jpg",
+      "id": 9
+    },
+    {
+      "name": "Ikura",
+      "unitPrice": 31,
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-5.jpg",
+      "id": 10
+    },
+    {
+      "name": "Chang",
+      "unitPrice": 19,
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-2.jpg",
+      "id": 2
+    },
+    {
+      "name": "Genen ",
+      "unitPrice": "48",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-6.jpg",
+      "id": 19
+    },
+    {
+      "name": "Genen Sho",
+      "unitPrice": "16",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-11.jpg",
+      "id": 15
+    },
+    {
+      "id": "1",
+      "name": "Kitab2",
+      "unitPrice": "23",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-4.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 26,
+      "supplierId": 11,
+      "categoryId": 3,
+      "quantityPerUnit": "100 - 250 g bags",
+      "unitPrice": 31.23,
+      "unitsInStock": 15,
+      "unitsOnOrder": 0,
+      "reorderLevel": 0,
+      "discontinued": false,
+      "name": "Gumbär Gummibärchen",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-2.jpg"
+    },
+    {
+      "id": 27,
+      "supplierId": 11,
+      "categoryId": 3,
+      "quantityPerUnit": "100 - 100 g pieces",
+      "unitPrice": 43.9,
+      "unitsInStock": 49,
+      "unitsOnOrder": 0,
+      "reorderLevel": 30,
+      "discontinued": false,
+      "name": "Schoggi Schokolade",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-3.jpg"
+    },
+    {
+      "id": 28,
+      "supplierId": 12,
+      "categoryId": 7,
+      "quantityPerUnit": "25 - 825 g cans",
+      "unitPrice": 45.6,
+      "unitsInStock": 26,
+      "unitsOnOrder": 0,
+      "reorderLevel": 0,
+      "discontinued": true,
+      "name": "Rössle Sauerkraut",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-5.jpg"
+    },
+    {
+      "id": 29,
+      "supplierId": 12,
+      "categoryId": 6,
+      "quantityPerUnit": "50 bags x 30 sausgs.",
+      "unitPrice": 123.79,
+      "unitsInStock": 0,
+      "unitsOnOrder": 0,
+      "reorderLevel": 0,
+      "discontinued": true,
+      "name": "Thüringer Rostbratwurst",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-1.jpg"
+    },
+    {
+      "id": 30,
+      "supplierId": 13,
+      "categoryId": 8,
+      "quantityPerUnit": "10 - 200 g glasses",
+      "unitPrice": 25.89,
+      "unitsInStock": 10,
+      "unitsOnOrder": 0,
+      "reorderLevel": 15,
+      "discontinued": false,
+      "name": "Nord-Ost Matjeshering",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-4.jpg"
+    },
+    {
+      "id": 31,
+      "supplierId": 14,
+      "categoryId": 4,
+      "quantityPerUnit": "12 - 100 g pkgs",
+      "unitPrice": 12.5,
+      "unitsInStock": 0,
+      "unitsOnOrder": 70,
+      "reorderLevel": 20,
+      "discontinued": false,
+      "name": "Gorgonzola Telino",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-6.jpg"
+    }
+  ],
+  "newBooks": [
+    {
+      "id": 32,
+      "supplierId": 14,
+      "categoryId": 4,
+      "quantityPerUnit": "24 - 200 g pkgs.",
+      "unitPrice": 32,
+      "unitsInStock": 9,
+      "unitsOnOrder": 40,
+      "reorderLevel": 25,
+      "discontinued": false,
+      "name": "Mascarpone Fabioli",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-1.jpg"
+    },
+    {
+      "id": 33,
+      "supplierId": 15,
+      "categoryId": 4,
+      "quantityPerUnit": "500 g",
+      "unitPrice": 2.5,
+      "unitsInStock": 112,
+      "unitsOnOrder": 0,
+      "reorderLevel": 20,
+      "discontinued": false,
+      "name": "Geitost",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-1.jpg"
+    },
+    {
+      "id": 34,
+      "supplierId": 16,
+      "categoryId": 1,
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 14,
+      "unitsInStock": 111,
+      "unitsOnOrder": 0,
+      "reorderLevel": 15,
+      "discontinued": false,
+      "name": "Sasquatch Ale",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-2.jpg"
+    },
+    {
+      "id": 22,
+      "supplierId": 9,
+      "categoryId": 5,
+      "quantityPerUnit": "24 - 500 g pkgs.",
+      "unitPrice": 21,
+      "unitsInStock": 104,
+      "unitsOnOrder": 0,
+      "reorderLevel": 25,
+      "discontinued": false,
+      "name": "Gustaf's Knäckebröd",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-4.jpg"
+    },
+    {
+      "id": 21,
+      "supplierId": 8,
+      "categoryId": 3,
+      "quantityPerUnit": "24 pkgs. x 4 pieces",
+      "unitPrice": 10,
+      "unitsInStock": 3,
+      "unitsOnOrder": 40,
+      "reorderLevel": 5,
+      "discontinued": false,
+      "name": "Sir Rodney's Scones",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-4.jpg"
+    },
+    {
+      "id": 35,
+      "supplierId": 16,
+      "categoryId": 1,
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 18,
+      "unitsInStock": 20,
+      "unitsOnOrder": 0,
+      "reorderLevel": 15,
+      "discontinued": false,
+      "name": "Steeleye Stout",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-7.jpg"
+    },
+    {
+      "id": 23,
+      "supplierId": 9,
+      "categoryId": 5,
+      "quantityPerUnit": "12 - 250 g pkgs.",
+      "unitPrice": 9,
+      "unitsInStock": 61,
+      "unitsOnOrder": 0,
+      "reorderLevel": 25,
+      "discontinued": false,
+      "name": "Tunnbröd",
+      "image": "https://htmldemo.net/pustok/pustok/image/products/product-11.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "orders": []
+}

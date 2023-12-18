@@ -1,0 +1,81 @@
+.wishs{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+.wish{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 270px;
+    height: 290px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+.wish img{
+    height: 180px;
+    width: 220px;
+}
+.wish button{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.bn30 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+    
+  }
+  
+  .bn30 .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .bn30:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #0e0e10;
+  }
+  
+  .bn30:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .bn30:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
+
+  .sil{
+    background-color: red;
+    border-radius: 15px;
+    width: 100px;
+    height: 45px;
+  }
